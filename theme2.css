@@ -1,0 +1,97 @@
+*{
+  background-color: rgb(255, 254, 249);
+}
+
+.some-page-wrapper {
+    margin: 15px;
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin: 3em;
+  }
+  
+  .orange-column {
+    height: 38em;
+    background-color: rgb(238, 238, 238);
+    box-align: left;
+    text-align: center;
+    padding-bottom: 80%;
+  }
+
+  .orange-column h2{
+    background-color: rgb(238, 238, 238)
+    
+  }
+  
+  .blue-column {
+    height: 100em;
+    background-color: rgb(255, 254, 249);
+  }
+  
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .column {
+      flex: 1
+    }
+  
+    .double-column {
+      flex: 2
+    }
+  }
+  h1{font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    color: rgb(77, 77, 77);}
+ h2{font-family: 'Open Sans', sans-serif;
+    color: rgb(77, 77, 77);
+}
+ h4{font-family: 'Open Sans', sans-serif;}
+ h5{font-family: 'Open Sans', sans-serif;
+  color: rgb(77, 77, 77);
+}
+ ol{font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    padding-right: 10%;
+    background-color: rgb(238, 238, 238)}
+p{font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;}
+li{font-family: 'Open Sans', sans-serif;
+   font-size: 10pt;}
+
+ #demobox1{
+    background-color: rgb(255, 123, 75) ;
+    padding: 1px ;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #demobox2{
+    background-color: rgb(255, 123, 75);
+    padding: 10px ;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  #demobox3{
+    background-color: rgb(255, 123, 75);
+    padding: 1px ;
+    margin-left: 0%;
+    margin-right: 2%;
+  }
+
+  
